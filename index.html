@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Control de gastos</h1>
+            <input class="hidden" min="0" type="number" required id="inputText">
+            <select name="" class="hidden" id="select">
+                <option value="Varios">Varios</option>
+                <option value="Entretenimiento">Comida</option>
+                <option value="Gas">Agua</option>
+                <option value="Luz">Entretenimiento</option>
+            </select>
+            <button id="botonRegister" class="btnRegister">Registrar</button>
+        </div>
+
+        <div id="container-Porcentajer">
+            <h1>Gastos</h1>
+        </div>
+        <div>
+            <button id="botonDelete" class="delete">Borrar Datos</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

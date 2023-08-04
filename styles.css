@@ -1,0 +1,104 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(156, 156, 237) no-repeat;
+}
+#inputText{
+    background-color: orange;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+.container{
+
+    width: 100vh;    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.btnRegister{
+    background-color: rgb(23, 176, 23);
+    color: white;
+    font-weight: bolder;
+    margin-right:4px;
+    width: 190px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.btnRegister:hover{
+    background-color: steelblue;
+    font-size: 1.6rem;
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+
+.hidden{
+    display: none;
+}
+#select{
+    border-radius: 23px;
+    font-weight: bolder;
+    width: 80px;
+    text-align: center;
+    color: rgb(72, 67, 83);
+    background-color: rgb(73, 152, 204);
+    border-radius: 5px;
+    width: 190px;
+    font-size: 1.5rem;
+}
+
+#select:hover{
+    background-color: orange;
+    font-size: 1.5rem;
+
+}
+
+
+option{
+    background-color: rgb(234, 123, 13);
+    border: none;
+    font-size: 1rem;
+}
+
+#container-Porcentajer{  
+    color: rgb(243, 243, 243);
+    font-weight: 200;
+    padding: 5px;
+    border-radius: 40px;
+
+}
+.dashboard {
+    color: rgb(34, 255, 0);
+    text-shadow: 1px 0.2px 2px black;
+    font-size: 1.3rem;
+ 
+}
+
+.delete{
+
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 1rem;
+}
